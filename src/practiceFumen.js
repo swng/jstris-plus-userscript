@@ -148,7 +148,7 @@ export const initPracticeFumen = () => {
             return
         } else if ("/fumen" === msg.substring(0, 6)) {
             if (this.p.pmode != 2) {
-                this.showInChat("Jstris+", "Fumen import only supported in practce mode")
+                this.showInChat("Jstris+", "Fumen import only supported in practice mode")
                 this.chatInput.value = "";
                 return
             }
